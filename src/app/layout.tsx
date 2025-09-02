@@ -6,6 +6,9 @@ import StatsWidget from '@/components/EventWidget'
 import StickyNoteWidget from '@/components/StickyNoteWidget'
 import CalculatorApp from '@/components/CalculatorApp'
 import TicTacToeApp from '@/components/TicTacToeApp'
+import DiscordApp from '@/components/DiscordApp'
+import InstagramApp from '@/components/InstagramApp'
+import LinkedInApp from '@/components/LinkedinApp'
 
 export const metadata: Metadata = {
   title: 'Portfolio - iPad Edition',
@@ -30,6 +33,9 @@ export default function RootLayout({
           <StickyNoteWidget />
           <CalculatorApp />
           <TicTacToeApp />
+          <DiscordApp />
+          <InstagramApp />
+          <LinkedInApp />
           
           {/* iPad-style Dock */}
           <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 z-50">
